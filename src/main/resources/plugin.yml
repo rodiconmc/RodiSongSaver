@@ -1,0 +1,15 @@
+name: RodiSongSaver
+version: 1.0.0
+main: com.rodiconmc.rodisongsaver.Main
+api-version: 1.13
+description: Allows recording of noteblock structures into an NBS file.
+author: RodiconMC
+website: rodiconmc.com
+permissions:
+  rodisongsaver.save:
+    default: op
+commands:
+  record:
+    description: Begins a recording of noteblocks
+    permission: rodisongsaver.save
+    usage: /record <song name> <file name>
